@@ -1,0 +1,35 @@
+#x{
+    background-image: url(vacation1.png);
+}
+
+h1{
+position: relative;
+text-align: center;
+}
+
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin:10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+.card1{
+    background-image: url(isreal_icon.jfif);
+}
+
+.card2{
+    background-image: url(abroad_logo.png.jpg);
+}
+
+.card:hover{
+    transform: translateY(-10px);
+
+}
