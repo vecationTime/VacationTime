@@ -1,37 +1,88 @@
-# Vbody{
-  background: #dedede;
-  margin: 0;
-  padding: 0;  
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    font-family: sans-serif;
 }
 
-.dropdwn{
-    margin: 0 auto;
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url("beach.jpg");
+    margin: 0;
+    padding: 0;
 }
 
-nav{
-height: 60px;
-background: #027df8;
-box-shadow: 0 10px 15px rgba(247, 3, 3, 0.1);
+.middle{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align:center;
+    bottom: 900px;
 }
 
+.btn{
+    background: none;
+    border: 2px solid #20dbc2;
+    font-family: "montserrat", sans-serif;
+    text-transform: uppercase;
+    padding: 12px 20px;
+    min-width: 200px;
+    margin: 10px;
+    cursor: pointer;
+    transition: color 0.4s linear;
+    position: relative;
+    bottom: -150px;
+    font-size: 20px;
+}
+
+.btn:hover{
+color: #fff;
+}
+
+.btn::before{
+   content: "";
+   position: absolute; 
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   background: #20dbc2;
+   z-index: -1;
+   transition: transform 0.5s;
+   transform-origin: 0 0;
+   transition-timing-function: cubic-bezier(0.5,1.6,0.4,0.7);
+}
+
+.btn2::before{
+    transform: scaleY(0); 
+ }
+
+ .btn2:hover::before{
+    transform: scaleY(1);
+ }
+
+h1{
+    text-align: center;
+    position: relative;
+    color: #fff;
+}
 
 #x{
-    font-family: 'Lobster', cursive;
-   color: skyblue;
+    color:rgb(233, 119, 78);
+    font-size: 40px;
 }
 
-#ben{
-    font-family: 'Indie Flower', cursive;
+#y{
+    text-align: center;
+    position: relative;
+    color:gold;
+    font-size: 30px;
+    bottom: -300px;
 }
 
-#abba{
-    font-family: 'Indie Flower', cursive;
+h4{
+    text-align: center;
+    position:relative;
+    bottom: -250px;
+    font-size: 25px;
 }
-
-#ben2{
-    font-family: 'Indie Flower', cursive;
-}
-
-#hello{
-    font-family: 'Indie Flower', cursive;
-}acationTime
