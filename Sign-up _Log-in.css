@@ -196,7 +196,17 @@ form.sign-up-form {
 .btn.transparent {
   margin: 0;
   background: none;
-  border: 2px solid #fff;
+  background-color: #20dbc2;
+  width: 130px;
+  height: 41px;
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+
+.btn.transparent1 {
+  margin: 0;
+  background: none;
+  background-color: #20dbc2;
   width: 130px;
   height: 41px;
   font-weight: 600;
