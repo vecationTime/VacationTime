@@ -2,13 +2,15 @@
 
 *{
     font-family: sans-serif;
+    box-sizing: border-box;
+
+
 }
 
 body{
     font-family: 'Poppins', sans-serif;
     background-image: url("beach.jpg");
-    margin: 0;
-    padding: 0;
+    
 }
 
 .middle{
@@ -31,7 +33,7 @@ body{
     cursor: pointer;
     transition: color 0.4s linear;
     position: relative;
-    bottom: -150px;
+    bottom: -260px;
     font-size: 20px;
 }
 
@@ -51,6 +53,7 @@ color: #fff;
    transition: transform 0.5s;
    transform-origin: 0 0;
    transition-timing-function: cubic-bezier(0.5,1.6,0.4,0.7);
+
 }
 
 .btn2::before{
@@ -75,14 +78,20 @@ h1{
 #y{
     text-align: center;
     position: relative;
-    color:gold;
+    color:goldenrod;
     font-size: 30px;
-    bottom: -300px;
+    bottom: -250px;
+    
+
+
 }
 
 h4{
     text-align: center;
     position:relative;
-    bottom: -250px;
+    bottom: -240px;
     font-size: 25px;
+    
 }
+
+
