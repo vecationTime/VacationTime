@@ -1,42 +1,24 @@
-<?php 
+<?php
 
-$username = filter_input(INPUT_POST, 'Username');
-$password = filter_input(INPUT_POST, 'Password');
+$username = @$_POST['username'];
+$password = @$_POST['password'];
+ 
+$conn=mysqli_connect("localhost","root","","syber");
 
-if(!empty($username)){
-if(!empty($password)){
-$host = "localhost";
-$dbUsername = "root";
-$dbPassword = "";
-$dbname = "syber"
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+  }
 
-//Create connection
-$conn = new mysqli ($host, $dbUsername, $dbPassword, $dbname);
+$sql = "INSERT INTO users (`username`, `password`) VALUES ('$username','$password')";
 
-if(mysqli_connect_error()){
-    die('Connect Error ('.mysqli_connect_errno() .')'.mysqli_connect_error());
-}
-else{
-    $sql = "INSERT INTO users (Username, Password)
-    values ($Username, $Password)";
+if ($conn->query($sql) === TRUE) {
+    echo "New record is inserted successfully";
+  } else {
+    echo "Error creating table: " . $conn->error;
+  }
+  
+  $conn->close();
+  
 
-    if($conn->query($sql)){
-        echo "New record is inserted successfully";
-    }
-    else{
-        echo "Error: ".$sql ."<br>". $conn->error;
-    }
-    $conn->close();
-}
-
-
-}
-else{
-    echo "password should not be empty";
-}
-}
-else{
-    echo "username should not be empty";
-}
 
 ?>
