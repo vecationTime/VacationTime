@@ -7,7 +7,7 @@
 
 body{
     font-family: 'Poppins', sans-serif;
-    background-image: url(eilat11.jpg);  
+    background-image: url(../IMG/eilat11.jpg);  
 }
 
 h1
@@ -56,9 +56,3 @@ h1
     margin-left:750px;
     margin-top: -450px;
 }
-
-
-
-
-
-
