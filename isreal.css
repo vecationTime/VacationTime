@@ -7,22 +7,19 @@
 
 body{
     font-family: 'Poppins', sans-serif;
-    background-image: url(isreal1.jpg);  
+    background-image: url(../IMG/israel1.jpg);  
 }
 
 h1
 {
     position: relative;
     text-align: center;
-    color: rgb(13, 230, 245);
+    color:rgb(13, 172, 245);
+    font-size: 40px;
 }
 
 #x
 {
-    color: rgb(13, 172, 245);
+    color: #fff;
     font-size: 40px;
 }
-
-
-
-
