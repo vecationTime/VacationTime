@@ -9,7 +9,7 @@
 
 body{
     font-family: 'Poppins', sans-serif;
-    background-image: url("beach.jpg");
+    background-image: url(../IMG/beach.jpg);
     
 }
 
@@ -93,5 +93,3 @@ h4{
     font-size: 25px;
     
 }
-
-
