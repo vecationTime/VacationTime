@@ -18,7 +18,7 @@ input {
   background-color: #fff;
   min-height: 100vh;
   overflow: hidden;
-  background-image: url(vacation.jpg);
+  background-image: url(../IMG/vacation.jpg);
   
 }
 
@@ -257,4 +257,3 @@ form.sign-up-form {
   z-index: 2;
   opacity: 1;
 }
-
