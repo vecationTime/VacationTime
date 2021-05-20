@@ -14,7 +14,7 @@ h1{
 
 body{
     font-family: 'Poppins', sans-serif;
-    background-image: url("night_vacation.jpg");
+    background-image: url(../IMG/night_vacation.jpg);
 }
 
 .container{
@@ -86,5 +86,3 @@ body{
     opacity: 1;
     z-index: -1;
 }
-
-
