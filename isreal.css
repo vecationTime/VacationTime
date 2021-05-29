@@ -24,3 +24,25 @@ h1
     font-size: 40px;
 }
 
+#a
+{
+    margin-top: -20px; 
+    margin-left:250px;
+    width: 440px;  
+    height: 300PX;  
+}
+#b
+{
+    margin-top: -370px; 
+    height: 280PX; 
+    width: 440px;  
+    margin-left:800px;
+}
+#c
+{
+    margin-top: 50px; 
+    height: 300PX; 
+    width: 840px;  
+    margin-left:350px;
+}
+
