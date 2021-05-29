@@ -20,7 +20,7 @@
 
 #x{
     color:yellow;
-    font-size: 35px;
+    font-size: 20px;
 }
 
  #a{
@@ -50,5 +50,46 @@
   margin-left:750px;
   margin-top: -450px;
  }
+ .card{
+  position: relative;
+   width: 200px;
+   height: 230px;
+   display: inline-block;
+   border-radius: 10px;
+   padding: 15px 25px;
+   box-sizing: border-box;
+   cursor: pointer;
+   margin: 10px 15px;
+   transition: transform 0.5s;
+   background-position: center;
+   background-size: cover;
+ }
 
+ .card1{
+  background-image: url(../IMG/dan_ta.jpg);
+}
 
+.card2{
+  background-image: url(../IMG/hilton_ta.jpg);
+}
+
+.card3{
+  background-image: url(../IMG/sheraton_ta.jpg);
+}
+
+.card4{
+  background-image: url(../IMG/herods.jpg);
+}
+
+.card:hover{
+  transform: translateY(-10px);
+}
+
+h4{
+  color: #fff;
+  text-shadow: 0 0 5px #999;
+}
+
+#pi{
+  color:white;
+}
