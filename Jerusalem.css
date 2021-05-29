@@ -11,3 +11,23 @@
     font-family: 'Poppins', sans-serif;
     background-image: url(../IMG/Jerusalem11.jfif);
   }
+
+
+  #a
+  {
+
+    position: relative;
+    text-align: center;
+    color: goldenrod;
+    font-size: 45px;
+
+  }
+
+  #x
+  {
+
+    color: goldenrod;
+    font-size: 35px;
+
+
+  }
