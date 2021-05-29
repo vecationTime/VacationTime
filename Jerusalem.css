@@ -25,9 +25,36 @@
 
   #x
   {
-
     color: goldenrod;
     font-size: 35px;
+  }
+  
+  #b
+  {
+    margin-top: -10px; 
+    height: 350PX;   
+    width: 450px;
+    margin-left:250px;
+  }
 
-
+  #c
+  {
+    margin-top: -500px; 
+    height: 350PX; 
+    width: 450px;  
+    margin-left:750px;
+  }
+  #d
+  {
+    margin-top: -10px; 
+    height: 350PX;
+    width: 450px;   
+    margin-left:250px;
+  }
+  #e
+  {
+    margin-top: -600px; 
+    height: 350PX;
+    width: 450px;   
+    margin-left:750px;
   }
