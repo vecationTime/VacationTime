@@ -51,9 +51,10 @@
   margin-top: -450px;
  }
  .card{
-  position: relative;
-   width: 200px;
-   height: 230px;
+   text-align: center;
+   position: relative;
+   width: 500px;
+   height: 350px;
    display: inline-block;
    border-radius: 10px;
    padding: 15px 25px;
@@ -92,4 +93,10 @@ h4{
 
 #pi{
   color:white;
+}
+
+.container{
+  position: relative;
+  align-items: center;
+  margin: 200px;
 }
