@@ -15,11 +15,11 @@
   h1{
       position: relative;
       text-align: center;
-      color: rgb(0, 247, 255);
+      color: royalblue;
   }
 
 #x{
-    color:yellow;
+    color:gold;
     font-size: 20px;
 }
 
