@@ -58,3 +58,54 @@
     width: 450px;   
     margin-left:750px;
   }
+
+  .card{
+    text-align: center;
+    position: relative;
+    width: 500px;
+    height: 350px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    transition: transform 0.5s;
+    background-position: center;
+    background-size: cover;
+  }
+ 
+  .card1{
+   background-image: url(../IMG/mamillaj.jpg);
+ }
+ 
+ .card2{
+   background-image: url(../IMG/kingDavid.jpg);
+ }
+ 
+ .card3{
+   background-image: url(../IMG/leonardoPlazaJ.jpg);
+ }
+ 
+ .card4{
+   background-image: url(../IMG/waldorfAstoriaJ.jpg);
+ }
+ 
+ .card:hover{
+   transform: translateY(-10px);
+ }
+ 
+ h4{
+   color: rgb(207, 176, 1);
+   text-shadow: 0 0 5px rgb(228, 168, 5);
+ }
+ 
+ #pi{
+   color:rgb(236, 194, 3);
+ }
+ 
+ .container{
+   position: relative;
+   align-items: center;
+   margin: 200px;
+ }
