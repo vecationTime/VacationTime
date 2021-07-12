@@ -45,4 +45,52 @@ h1
     width: 840px;  
     margin-left:350px;
 }
-
+.card{
+    text-align: center;
+    position: relative;
+    width: 500px;
+    height: 350px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    transition: transform 0.5s;
+    background-position: center;
+    background-size: cover;
+  }
+ 
+  .card1{
+   background-image: url(../IMG/ta1.jpg);
+ }
+ 
+ .card2{
+   background-image: url(../IMG/eilat.jpg);
+ }
+ 
+ .card3{
+   background-image: url(../IMG/jerusalem1.jpg);
+   
+ }
+ 
+ 
+ 
+ .card:hover{
+   transform: translateY(-10px);
+ }
+ 
+ h4{
+   color: #fff;
+   text-shadow: 0 0 5px #999;
+ }
+ 
+ #pi{
+   color:white;
+ }
+ 
+ .container{
+   position: relative;
+   align-items: center;
+   margin: 200px;
+ }
