@@ -21,7 +21,7 @@ h1
 #x
 {
     color: #fff;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 #a
@@ -71,6 +71,7 @@ h1
  
  .card3{
    background-image: url(../IMG/jerusalem1.jpg);
+   margin-left: 280px;
    
  }
  
