@@ -10,29 +10,47 @@
     src="https://kit.fontawesome.com/64d58efce2.js"
     crossorigin="anonymous"
    ></script>
-   
 </head>
-<body>
-   <video autoplay muted loop id="myVideo">
+      <body>
+      <video autoplay muted loop id="myVideo">
       <source src="../video/home_page.mp4" type="video/mp4">
-    </video>
-   
-<h1>Welcome to VacationTime</h1>
-  <strong><marquee  behavior="" direction="right" id="x">The time for a vacation is now</marquee></strong>
-        <p id="y">This website is for the customers to order a vacation whether it's in israel or abroad.<br> 
-        This website includes a lot of things such as renting cars, add a specific site to the favorites etc.</p><br>
-       <strong><h4>To continue to the website click on the button below</h4></strong>
-       <br>
-       <div class="middle">
-        <a href="../HTML/Sign-up _Log-in.html"><button class="btn btn2">Continue</button></a>
-     </div>
+      </video>
+      <h1>Welcome to VacationTime</h1>
+      <strong><marquee  behavior="" direction="right" id="x">The time for a vacation is now</marquee></strong> 
+      <div class="container">
+            <div class="card">
+               <div class="content">
+                  <h2>01</h2>
+                  <h3>Shaked Shmueli</h3>
+                     <p>Shaked is one of the developers</p>
+                     <a href="">read more</a>
+               </div>
+            </div>
+            <div class="card">
+               <div class="content">
+                  <h2>02</h2>
+                  <h3>Ori Yohai</h3>
+                     <p>Ori is one of the developers</p>
+                     <a href="">read more</a>
+               </div>
+            </div>
+         </div>
 
-     <br>
-     <br>
+      <p class="y">This website is for the customers to order a vacation's in israel.<br> 
+      This website includes a lot of things such as renting cars, add a specific site to the favorites etc.</p>
 
-
-</body>
-<script src="../JavaScript/VacationTime.js"></script>
- </body>
+      <div class="middle">
+      <a href="../HTML/Sign-up_Log-in.html"><button class="btn btn2">Continue</button></a>
+      </div>
+      <script src="../JavaScript/VacationTime.js"></script>
+      <script  src="../JavaScript/vanilla-tilt.js"></script>
+      <script>
+         VanillaTilt.init(document.querySelectorAll(".card"), {
+         max: 25,
+         speed: 400,
+         glare: true,
+         "max-glare": 1,
+         });
+      </script>
+      </body>
 </html>
-
