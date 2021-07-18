@@ -63,7 +63,7 @@
     text-align: center;
     position: relative;
     width: 500px;
-    height: 320px;
+    height: 270px;
     display: inline-block;
     border-radius: 10px;
     padding: 15px 25px;
@@ -124,5 +124,4 @@
 .btn:hover {
   background-color: DodgerBlue;
 }
-
 
