@@ -166,4 +166,18 @@ section i{
         right: 30px;
     }
 }
-
+.btn {
+    background-color: rgb(154, 214, 224); /* Blue background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 12px 16px; /* Some padding *
+    font-size: 16px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+    margin-left: -1400px;
+    margin-top: -10px;
+  }
+  
+  /* Darker background on mouse-over */
+  .btn:hover {
+    background-color: rgb(154, 214, 224);
+  }
