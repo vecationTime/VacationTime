@@ -13,6 +13,11 @@ body{
     background-image: url(../IMG/beach.jpg);
 }
 
+.btn11
+{
+    background-color: #20dbc2;
+}
+
 .container
 {
     position: relative;
@@ -23,6 +28,7 @@ body{
     flex-wrap: wrap;
     z-index: 1;
 }
+
 
 .container .card
 {
@@ -160,7 +166,7 @@ h1{
 .y{
     text-align: center;
     position: relative;
-    color:#20dbc2;
+    color:#dbc820;
     font-size: 30px;
     bottom: 30px;
 }
@@ -199,5 +205,4 @@ h1{
     background: #ddd;
     color: black;
   }
-
 
