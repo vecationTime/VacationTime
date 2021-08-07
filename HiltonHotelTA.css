@@ -42,6 +42,25 @@ header{
     color: goldenrod;
 }
 
-h2{
-    color: cornflowerblue;
+h1{
+    color: crimson;
+    margin-left: -520px;
 }
+
+.btn {
+    background-color: DodgerBlue; /* Blue background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 12px 16px; /* Some padding */
+    font-size: 16px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+    margin-left: -120px;
+    margin-top: -10px;
+  }
+  
+  /* Darker background on mouse-over */
+  .btn:hover {
+    background-color: RoyalBlue;
+  }
+
+
