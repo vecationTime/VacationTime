@@ -54,5 +54,7 @@ header{
   }
   
 h1{
-    color: cornflowerblue;
+    
+    color: crimson;
+    margin-left: -520px;
 }
