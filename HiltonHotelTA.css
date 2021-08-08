@@ -7,14 +7,14 @@
 }
 
 body{
-    background-image: url(../IMG/hilton1.JPG);
+    background-image:url(../IMG/hilton1.jpg)
 }
 
 li, a{
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 20px;
-    color: #000000;
+    color: black;
     text-decoration: none;
 }
 
@@ -42,11 +42,6 @@ header{
     color: goldenrod;
 }
 
-h1{
-    color: crimson;
-    margin-left: -520px;
-}
-
 .btn {
     background-color: DodgerBlue; /* Blue background */
     border: none; /* Remove borders */
@@ -58,9 +53,6 @@ h1{
     margin-top: -10px;
   }
   
-  /* Darker background on mouse-over */
-  .btn:hover {
-    background-color: RoyalBlue;
-  }
-
-
+h1{
+    color: cornflowerblue;
+}
