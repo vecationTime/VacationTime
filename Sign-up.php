@@ -6,7 +6,7 @@ $mail = $_POST['mail'];
 
 if(strlen($password) != 8){
 
-  echo "you need to write 8 charecters";
+  echo "you need to write 8 charecters and you need to write 8 charecters and you need to enter all the parameters";
   echo "<br><a href='../HTML/Sign-up_Log-in.html'>Go back</a>";
   
   exit();
