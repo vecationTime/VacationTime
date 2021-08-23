@@ -1,14 +1,13 @@
 <?php
 
-
-
 $username = $_POST['username'];
 $password = $_POST['password'];
+$mail = $_POST['mail'];
 
 if(strlen($password) != 8){
 
   echo "you need to write 8 charecters";
-  echo "<br><a href='../HTML/Sign-up_Log-in.html'>GO to Home</a>";
+  echo "<br><a href='../HTML/Sign-up_Log-in.html'>Go back</a>";
   
   exit();
 
@@ -28,15 +27,16 @@ $r = $conn->query($sql);
 if ($r->num_rows > 0) {
   
   echo "username is already exist";
-  echo "<br><a href='../HTML/Sign-up_Log-in.html'>GO to Home</a>";
+  echo "<br><a href='../HTML/Sign-up_Log-in.html'>Cant sign up please try again</a>";
   exit();
 
 }
 
 
-$sql = "INSERT INTO users (`username`, `password`) VALUES ('$username','$password')";
+$sql = "INSERT INTO users (username, passwordP, Mail) VALUES ('$username','$password','$mail')";
 if ($conn->query($sql) === TRUE) {
-    echo "New record is inserted successfully";
+    echo "You have signed up successfuly";
+    echo "<br><a href='../HTML/Sign-up_Log-in.html'>Go and log in</a>";
   } else {
     echo "Error creating table: " . $conn->error;
   }
