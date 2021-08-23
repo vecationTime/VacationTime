@@ -15,6 +15,7 @@
   ></script>
   <!-- this is the connection to the css document -->
   <link rel="stylesheet" a href="../CSS/Sign-up_Log-in.css"/>
+  <link rel="stylesheet" a href="../CSS/Log-in.css"/>
   <!-- defining the website title -->
   <title> Sign up & Log in </title>
   <!-- close head tag  -->
@@ -27,22 +28,23 @@
     <!--  -->
    <div class="forms-container">
     <div class="signin-signup">
-     <form action="#" class="sign-in-form">
+     <form method="POST" action="../PHP/Log_in.php" class="sign-in-form">
         
       <h1 id="ab">VacationTime</h1>
       <h2 class="title">Log in</h2>
       <div class="input-field">
        <i class="fas fa-user"></i>
-       <input type="text" placeholder="Username" />
+       <input type="text" placeholder="Username" name = "username" />
       </div>
       <div class="input-field" id="log">
        <i class="fas fa-lock"></i>
-       <input type="password" placeholder="Password" />
+       <input type="password" placeholder="Password" name = "password" />
       </div>
 
-      <a href ="../HTML/IsraelCountry.html" ><input class="btn solid" submit value="                Log in"/>
-      </a>=
-
+      <a href ="../HTML/IsraelCountry.html" ><input class="btn solid" type="submit" value="Log in"/>
+      </a>
+      <a href ="../HTML/ChangePassword.html" ><input class="abc" value="Forget password ?"/>
+      </a>
      </form>
     
      <form method="post" action="../PHP/Sign-up.php" class="sign-up-form">
@@ -56,6 +58,10 @@
        <i class="fas fa-lock"></i>
        <input type="password" placeholder="Password" name = "password" />
       </div>
+      <div class="input-field">
+        <i class="fas fa-envelope"></i>
+        <input type="mail" placeholder="Mail" name = "mail" />
+       </div>
       <input type="submit" class="btn" value="Sign up" />
      </form>
     </div>
