@@ -130,6 +130,7 @@ form.sign-up-form {
   font-weight: 600;
   margin: 10px 0;
   transition: all 0.5s;
+  padding: 5px 5px 5px 5px;
 }
 
 .btn:hover {
@@ -257,3 +258,4 @@ form.sign-up-form {
   z-index: 2;
   opacity: 1;
 }
+
