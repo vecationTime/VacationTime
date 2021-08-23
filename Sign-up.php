@@ -35,8 +35,7 @@ if ($r->num_rows > 0) {
 
 $sql = "INSERT INTO users (username, passwordP, Mail) VALUES ('$username','$password','$mail')";
 if ($conn->query($sql) === TRUE) {
-    echo "You have signed up successfuly";
-    echo "<br><a href='../HTML/Sign-up_Log-in.html'>Go and log in</a>";
+     header('Location:../HTML/Sign-up_Log-in.html');
   } else {
     echo "Error creating table: " . $conn->error;
   }
