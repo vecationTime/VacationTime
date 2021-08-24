@@ -1,76 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="eng">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Slab&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../CSS/ContectUs.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
 <body >
     <div class="container">
         <header>
             <a href="../HTML/VacationTime.html"><button class="btn"><i class="fa fa-home"></i></button></a>
-            <h1>Contact Us VacationTime</h1>
-            <p>for any problem you send us a massage and we will reach you back</p>
+            <strong><h1 style="color: crimson">Contact Us VacationTime</h1></strong>
+            <strong><p style="color: crimson">for any problem you send us a massage and we will reach you back</p></strong>
         </header>
         <div class="content">
             <div class="content-form">
                 <section>
                     <i class="fa fa-map-marker fa-2x" aria-hidden="true"></i>
-                    <h2>address</h2>
-                    <p>
-                        Hapalmach 21 GanYavne.<br>
-                        Shmuel Hanagid 13 Herzelia.<br>
-                    </p>
+                    <strong><h2 style="color: crimson">address</h2></strong>
+                    <strong><p style="color: crimson">
+                    Hapalmach 21 GanYavne.<br>
+                    Shmuel Hanagid 13 Herzelia.<br>
+                    </p></strong>
                 </section>
 
                 
                 <section>
                     <i class="fa fa-phone fa-2x" aria-hidden="true"></i>
-                    <h2>Phone</h2>
-                    <p>0544266643<br>
-                    0525322828</p>
+                    <strong><h2 style="color: crimson">Phone</h2></strong>
+                    <strong><p style="color: crimson">0544266643<br>
+                    0525322828</p></strong>
                 </section>
 
                 <section>
                     <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
-                    <h2>E-mail</h2>
-                    <p>
+                    <strong><h2 style="color: crimson">E-mail</h2></strong>
+                    <strong><p style="color: crimson">
                     king2667@gmail.com.<br>
-                    sShakedi125@gmail.com</p>
+                    sShakedi125@gmail.com.</p></strong>
                 </section>
             </div>
         </div>
 
-      <form>
+      <form method="post" action="../PHP/messages.php" class="sign-up-form">
         <div class="form">
             <div class="right">
               <div class="contact-form">
                   <input type="text" required>
-                  <span>Full Name</span>
+                  <span style="color: crimson">Full Name</span>
               </div>
   
               <div class="contact-form">
                   <input type="E-mail" required>
-                  <span>E-mail Id</span>
+                  <span style="color: crimson">E-mail</span>
               </div>
+
               <div class="contact-form">
                   <textarea name="text">
-                    
                   </textarea>
-                  <span> Type your Message....</span>
+                  <span style="color: crimson"> Type your Message.... </span>
               </div>
   
               <div class="contact-form">
-                  <input type="submit" name="send">
+                  <input type="submit" input="submit">
               </div>
               </div>
             </div>
           </div>
     </form>
-        <div class="empty"></div>
     </div>    
 </body>
 </html>
