@@ -13,12 +13,6 @@ body{
 background-image: url(../IMG/KD\ hotel.jpg);
 }
 
-h1
-{
-    position: relative;
-    text-align: center;
-    color: white;
-}
 
 #x
 {
@@ -39,6 +33,7 @@ color: white;
   padding: 12px 16px; /* Some padding */
   font-size: 16px; /* Set a font size */
   cursor: pointer; /* Mouse pointer on hover */
+
 }
 
 /* Darker background on mouse-over */
@@ -53,4 +48,42 @@ color: white;
 
     margin-left: 530px;
     margin-bottom: -450px;
+}
+
+
+li, a{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.nav__links{
+    list-style: none;
+}
+
+.nav__links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover{
+    color: goldenrod;
+}
+
+h1{
+    color: crimson;
+    margin-left: 100px;
 }
