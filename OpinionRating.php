@@ -12,7 +12,7 @@ if ($conn->connect_error) {
 
 $sql = "INSERT INTO Opinion (rating, opinion) VALUES ('$Rating','$Opinion')";
 if ($conn->query($sql) === TRUE) {
-    header('Location: ../PHP/OpinionRaitingS.php');
+    header('Location: ../PHP/OpinionRatingS.php');
   } else {
     echo "Error creating table: " . $conn->error;
   }
