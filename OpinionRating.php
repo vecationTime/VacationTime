@@ -1,7 +1,7 @@
 <?php
 
-$CheckIn = $_POST['Check-in'];
-$CheckOut = $_POST['Check-out'];
+$Rating = $_POST['rating'];
+$Opinion = $_POST['opinion'];
 
 $conn=mysqli_connect("localhost","root","","syber");
 
@@ -9,9 +9,10 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
   }
 
-$sql = "INSERT INTO OrderHotel (CheckIn, CheckOut, Available) VALUES ('$CheckIn','$CheckOut', 'No')";
-if ($conn->query($sql) == TRUE) {
-    echo "You have signed up successfuly";
+
+$sql = "INSERT INTO Opinion (rating, opinion) VALUES ('$Rating','$Opinion')";
+if ($conn->query($sql) === TRUE) {
+    header('Location: ../PHP/OpinionRaitingS.php');
   } else {
     echo "Error creating table: " . $conn->error;
   }
