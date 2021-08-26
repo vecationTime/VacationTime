@@ -14,19 +14,26 @@
         <h1>Dan Hotel</h1>
         <nav>
             <ul class="nav__links">
-                <li><a href="../HTML/CarRenting.html">Rent a car</a></li>
-                <li><a href="#">Favorites</a></li>
-                <li><a href="#">Opinion</a></li>
+                <li><a href="../HTML/RentCar.html">Rent a car</a></li>
+                <li><a href="../PHP/OpinionRaitingOrigin.php">Opinion&Raiting</a></li>
                 <li><a href="../HTML/Payment.html">Payment</a></li>
             </ul>
         </nav>
     </header>
-    
-    
-     <video id="x11" width="400" height="300" controls>
-        <source src="../video/Dan Tel Aviv Hotel, Tel Aviv, Israel.mp4" type="video/mp4">
+
+    <video id="x11" width="400" height="300" controls>
+        <source src="../Video/Dan Tel Aviv Hotel, Tel Aviv, Israel.mp4" type="video/mp4">
       </video>
-    
-    
+<form method="POST" action="../PHP/SaveDate.php">
+<label for="Check-in:">Check-in</label>
+<input type="date" name="Check-in">
+
+<label for="Check-out:">Check-out</label>
+<input type="date" name="Check-out">
+
+<input type="submit" value="search">
+
+
+</form>
 </body>
 </html>
