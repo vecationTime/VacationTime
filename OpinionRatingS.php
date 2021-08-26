@@ -5,7 +5,7 @@
     <title>Star Rating Form | CodingNepal</title>
   </head>
   <body>
-      <form method="POST" action="../PHP/OpinionRaiting.php">
+      <form method="POST" action="../PHP/OpinionRating.php">
         <input type="radio" name="rating" value="1">1
         <input type="radio" name="rating" value="2">2
         <input type="radio" name="rating" value="3">3
