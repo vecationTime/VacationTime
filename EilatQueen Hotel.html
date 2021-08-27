@@ -4,20 +4,48 @@
     <meta charset="UTF-8">
     <title>EilatQueen Hotel</title>
     <link rel="stylesheet" a href="../CSS/EilatQueen Hotel.css">
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <div>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <a href="../HTML/VacationTime.html"><button class="btn"><i class="fa fa-home"></i></button></a>
-    <h1>EilatQueen Hotel</h1>
-    <strong><marquee  behavior="" direction="right" id="x">welcome to the EilatQueen Hotel</marquee></strong> 
+    
+       
+    <h1 style="position:relative; text-align: center;">EilatQueen Hotel</h1>
+    
+    <nav role="navigation">
+        <div id="menuToggle">
+         
+          <input type="checkbox" />
+       
+          <span></span>
+          <span></span>
+          <span></span>
+        
+       
+          <ul id="menu">
+            <strong><a href="../HTML/VacationTime.html"><li>home</li></a></strong>
+            <strong><a href="../HTML/RentCar.html"><li>rent a car</li></a></strong>
+            <strong><a href="../PHP/OpinionRatingOrigin.php"><li>ratingOpinion</li></a></strong>
+            <strong><a href="../HTML/Payment.html"><li>Payment</li></a></strong>
+            <strong><a href="../HTML/Rooms.html"><li>Rooms</li></a></strong>
+          </ul>
+        </div>
+      </nav>
+    
 
-
-<video id="x11" width="400" height="300" controls>
+ <video id="x11" width="400" height="300" controls>
         <source src="../video/Queen of Sheba Eilat, Eilat, Israel.mp4" type="video/mp4">
       </video>
+
+
+      <form style="margin-top: 500px; margin-left: 500px; "  method="POST" action="../PHP/SaveDate.php">
+        <label  style=" font-family: 'Poppins', 'sans-serif'; font-style:rgb(10, 228, 192);" for="Check-in:">Check-in</label>
+        <input type="date" name="Check-in">
         
+        <label style=" font-family: 'Poppins', sans-serif; font-style:rgb(10, 228, 192);" for="Check-out:">Check-out</label>
+        <input type="date" name="Check-out">
         
+        <input type="submit" value="search">
+
+
 </body>
 </html>
