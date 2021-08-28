@@ -1,17 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
 
-*{
-    font-family: sans-serif;
-    box-sizing: border-box;
-   
-   
-}
+
 
 body{
     
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', 'sans-serif';
 background-image: url(../IMG/waldorfAstoriaJ1111.jpg);
 }
+
 
   
 
@@ -34,7 +30,7 @@ h1{
 #menuToggle a
 {
   text-decoration: none;
-  color: royalblue;
+  color: rgb(23, 207, 192);
   transition: color 0.3s ease;
 }
 
