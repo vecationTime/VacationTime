@@ -5,7 +5,7 @@
 
 body{
     background-image:url(../IMG/herods1.jpg);
-    font-family: 'Poppins', 'sans-serif';
+    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -140,4 +140,3 @@ h1{
 {
   transform: none;
 }
-
