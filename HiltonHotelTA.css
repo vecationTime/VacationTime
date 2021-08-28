@@ -1,21 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
 
-*{
-   
-    margin: 0;
-    padding: 0;
-}
-
 body{
     background-image:url(../IMG/hilton1.jpg);
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', 'sans-serif';
 }
 
 
   
 h1{
     color: crimson;
-text-align: center;   
+    text-align: center;   
 }
 
 
