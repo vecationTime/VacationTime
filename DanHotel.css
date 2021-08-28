@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
 
-*{
-
-    margin: 0;
-    padding: 0;
-}
 
 body{
     background-image:url(../IMG/dan.jpg);
@@ -14,7 +9,8 @@ body{
 
 h1{
     color: crimson;
-    margin-left: -520px;
+    text-align: center;
+
 }
 
 
