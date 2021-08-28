@@ -9,7 +9,9 @@
 body{
   overflow: hidden;
   height: 100vh;
-  background:#000;
+  background:black;
+  font-family: 'Poppins', 'sans-serif';
+
 }
 
 section{
@@ -41,4 +43,10 @@ span{
     transform: scale(1) translateY(-500%) rotate(360deg);
     opacity: 0;
   }
+}
+
+.a
+{
+  text-align: center;
+  color: #fff;
 }
