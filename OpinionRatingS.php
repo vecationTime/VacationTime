@@ -6,6 +6,7 @@
     <link rel="stylesheet" a href="../CSS/OpinionRating.css">
   </head>
   <body>
+    <div class="a">
       <form method="POST" action="../PHP/OpinionRating.php">
         <input type="radio" name="rating" value="1">1
         <input type="radio" name="rating" value="2">2
@@ -17,22 +18,22 @@
           </div>
         <input type="submit" value="post">
         </form>
-        
+        </div>
         <?php
         
-        echo "Thanks for rating us!";
-        
+       
         $conn=mysqli_connect("localhost","root","","syber");
         $sql = "SELECT * FROM Opinion;";
         $result = mysqli_query($conn, $sql);
         $resultCheck = mysqli_num_rows($result);
-        echo "<br>";
-        echo "<hr>";
+        echo "<br>"; 
+        echo "Thanks for rating us! ";
+        
         if($resultCheck>0){
             while($row = mysqli_fetch_assoc($result)){
-                echo "<p style = 'color: blue; border: 1px solid red; text-align: center; font-size: 35px'>" .$row['rating']."-".$row['opinion']."<br>";
-                echo "<br>";
-                echo "<hr>";
+             echo "<p style = 'color: white; text-align: center; font-size: 25px';>" .$row['rating']."-".$row['opinion']."<br>";
+             echo "<br>";
+               
             }
         }
         
