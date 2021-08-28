@@ -17,6 +17,7 @@
             <textarea name="opinion" cols="30" placeholder="Describe your experience.."></textarea>
           </div>
         <input type="submit" value="post">
+        <a href="../HTML/VacationTime.html" class="h">go home</a>
         </form>
         </div>
         <?php
