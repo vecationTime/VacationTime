@@ -96,7 +96,7 @@
  }
  
  h4{
-   color: rgb(207, 176, 1);
+   color: crimson;
    text-shadow: 0 0 5px rgb(228, 168, 5);
  }
  
@@ -124,5 +124,3 @@
 .btn:hover {
   background-color: DodgerBlue;
 }
-
-
