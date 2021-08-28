@@ -14,12 +14,12 @@ h1
 {
     position: relative;
     text-align: center;
-    color: rgb(13, 245, 245);
+    color: goldenrod;
 }
 
 #x
 {
-    color: rgb(13, 245, 245);
+    color: royalblue;
     font-size: 35px;
 }
 
@@ -95,12 +95,13 @@ h1
  }
  
  h4{
-   color: #fff;
-   text-shadow: 0 0 5px #999;
+   color: white;
+   text-shadow: 0 0 10px crimson;
  }
  
  #pi{
-   color:white;
+   color:crimson;
+   text-shadow: 0 0 10px royalblue;
  }
  
  .container{
@@ -110,7 +111,7 @@ h1
  }
 
  .btn {
-  background-color: DodgerBlue; /* Blue background */
+  background-color: crimson; /* Blue background */
   border: none; /* Remove borders */
   color: white; /* White text */
   padding: 12px 16px; /* Some padding */
