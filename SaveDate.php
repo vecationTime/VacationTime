@@ -2,20 +2,23 @@
 
 $CheckIn = $_POST['Check-in'];
 $CheckOut = $_POST['Check-out'];
-
+echo strlen($CheckIn); 
 $conn=mysqli_connect("localhost","root","","syber");
-
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
+$query = "SELECT * FROM orderhotel WHERE CheckIn = '$CheckIn' and CheckOut = '$CheckOut'";
+$result = mysqli_query($conn, $query);
+$resultCheck = mysqli_num_rows($result);
+echo "<br>";
+if($resultCheck>0){
+    while($row = mysqli_fetch_assoc($result)){
+       if ($row['Available'] == "Yes") {
+        header('Location:../HTML/Payment.html');
+      }
+       else
+      {
+        header('Location:../PHP/DateError.php');
+       }
+   }
   }
-
-$sql = "INSERT INTO OrderHotel (CheckIn, CheckOut, Available) VALUES ('$CheckIn','$CheckOut', 'No')";
-if ($conn->query($sql) == TRUE) {
-    echo "You have signed up successfuly";
-  } else {
-    echo "Error creating table: " . $conn->error;
-  }
- 
   $conn->close();
 
 ?>
