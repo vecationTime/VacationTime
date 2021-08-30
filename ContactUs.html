@@ -6,7 +6,15 @@
     <title>Contact Us</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Slab&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../CSS/ContactUs.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" 
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <style>
+        body
+        {
+            overflow-y: hidden;
+            overflow-x: hidden;
+        }
+    </style>
 </head>
 <body >
     <div class="container">
@@ -48,17 +56,17 @@
         <div class="form">
             <div class="right">
               <div class="contact-form">
-                  <input style="color: crimson" type="text" required>
+                  <input name="fullname" style="color: crimson" type="text" required>
                   <span style="color: crimson">Full Name</span>
               </div>
   
               <div class="contact-form">
-                  <input style="color: crimson" type="E-mail" required>
+                  <input name="Email" style="color: crimson" type="Email" required>
                   <span style="color: crimson">E-mail</span>
               </div>
 
               <div class="contact-form">
-                  <textarea style="color: crimson" name="text">
+                  <textarea name="Messages" style="color: crimson" >
                   </textarea>
                   <span style="color: crimson"> Type your Message.... </span>
               </div>
