@@ -33,8 +33,8 @@
       </nav>
     
 
-      <form style="margin-top: -30px; margin-left: 920px;     font-family: 'Poppins', sans-serif;
-      "  method="POST" action="../PHP/SaveDate.php">
+      <form style="margin-top: -30px; margin-left: 920px; text-align: center; font-family: 'Poppins', sans-serif;
+      "  method="POST" action="../PHP/HerodsSaveDate.php">
         <label  style="  color: crimson; font-size: 20px;" for="Check-in:">Check-in</label>
         <input type="date" name="Check-in">
         
