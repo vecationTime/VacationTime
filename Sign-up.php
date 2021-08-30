@@ -6,7 +6,7 @@ $mail = $_POST['mail'];
 
 if(strlen($password) != 8){
 
-  echo "you need to write 8 charecters and you need to write 8 charecters and you need to enter all the parameters";
+  echo "you need to write 8 charecters";
   echo "<br><a href='../HTML/Sign-up_Log-in.html'>Go back</a>";
   
   exit();
@@ -34,8 +34,17 @@ if ($r->num_rows > 0) {
 
 
 $sql = "INSERT INTO users (username, passwordP, Mail) VALUES ('$username','$password','$mail')";
-if ($conn->query($sql) === TRUE) {
-     header('Location:../HTML/Sign-up_Log-in.html');
+if ($conn->query($sql) == TRUE) {
+    //echo "You have signed up successfuly";
+    //echo "<br><a href='../HTML/Sign-up_Log-in.html'>Go and log in</a>";
+    $headers = 'From: Artisans Web webmaster@artisansweb.net'."\r\n".'Reply-To: webmaster@artisansweb.net'."\r\n".
+    'X-Mailer: PHP/'.phpversion()."\r\n";
+
+    $message = 'Je suis fan de lequipe de france!';
+    mail('king2667@gmail.com', 'promotion', $message, $headers);
+
+    echo "Mail sent successfuly";
+
   } else {
     echo "Error creating table: " . $conn->error;
   }
