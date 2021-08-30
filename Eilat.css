@@ -73,22 +73,12 @@ h1
     background-position: center;
     background-size: cover;
   }
- 
-  .card1{
-   background-image: url(../IMG/eilatSport.jpg);
- }
- 
- .card2{
-   background-image: url(../IMG/eilatLagona.jpg);
- }
- 
- .card3{
-   background-image: url(../IMG/eilatQueen.jpg);
- }
+
  
  .card4{
    background-image: url(../IMG/eilatKing.jpg);
- }
+   margin-left:480px;
+  }
  
  .card:hover{
    transform: translateY(-10px);
@@ -107,7 +97,7 @@ h1
  .container{
    position: relative;
    align-items: center;
-   margin: 200px;
+   
  }
 
  .btn {
