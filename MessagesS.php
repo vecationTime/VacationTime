@@ -81,8 +81,9 @@
     </div>  
     
     <?php 
-         echo "<p style = 'color: crimson; text-align: center; position: relative; top: -300px; left: 100px; font-size: 25px'>Thank you</p><br>";
-         echo "<br>";
+    echo "<p style = 'color: crimson; text-align: center; position: relative; 
+    top: -250px; left: 100px; font-size: 25px'>Thank you</p><br>";
+    echo "<br>";
     ?>
 </body>
 </html>
