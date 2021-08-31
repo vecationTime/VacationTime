@@ -7,7 +7,7 @@ $mail = $_POST['mail'];
 if(strlen($password) != 8){
 
   echo "you need to write 8 charecters";
-  echo "<br><a href='../HTML/Sign-up_Log-in.html'>Go back</a>";
+  echo "<br><a href='../HTML/SignUupILogIn.html'>Go back</a>";
   
   exit();
 
@@ -27,7 +27,7 @@ $r = $conn->query($sql);
 if ($r->num_rows > 0) {
   
   echo "username is already exist";
-  echo "<br><a href='../HTML/Sign-up_Log-in.html'>Cant sign up please try again</a>";
+  echo "<br><a href='../HTML/SignUpLogIn.html'>Cant sign up please try again</a>";
   exit();
 
 }
