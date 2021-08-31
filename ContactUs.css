@@ -8,9 +8,6 @@
     font-family: 'Poppins', sans-serif;
     border: none;
 }
-
-
-  
 body{
     
     width: 100%;
@@ -19,7 +16,6 @@ body{
     position: relative;
     background-repeat: no-repeat;
     background-image: url(../IMG/ContactUs.jfif);
-
 }
 header{
     position: absolute;
@@ -59,7 +55,7 @@ section i{
     border-radius: 50%;
     width: 40px;
     height: 40px;
-    background-color: rgba(255,255,255,0.8);
+    background-color: rgba(22, 223, 196, 0.8);
     color: black;
     text-align: center;
 }
@@ -82,7 +78,7 @@ section i{
     margin: 20px;
     padding: 10px;
     font-size: 18px;
-    border-bottom: 2px solid rgb(158, 158, 158);
+    border-bottom: 2px solid rgb(21, 218, 224);
 }
 .form .contact-form input ~ span{
     position: absolute;
@@ -100,7 +96,7 @@ section i{
     background-color: transparent;
     margin: 20px;
     font-size: 17px;
-    border-bottom: 2px solid rgb(163, 36, 36);
+    border-bottom: 2px solid rgb(11, 212, 202);
 }
 .form .contact-form textarea ~ span
 {
