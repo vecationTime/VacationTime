@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
 
-*{
-    font-family: sans-serif;
-    
-}
 
 body{
     font-family: 'Poppins', sans-serif;
@@ -21,41 +17,6 @@ h1
 {
     color: royalblue;
     font-size: 35px;
-}
-
-
-
-#a
-{
-    margin-top: -10px; 
-    height: 450PX;   
-    margin-left:250px;
-}
-
-#b
-{   
-    padding-bottom: 50px;
-    margin-left:550px;
-    margin-top: -450px;
-    height: 450PX; 
-    width: 450PX;  
-    margin-left:750px;
-}
-
-#c
-{
-    height: 470PX; 
-    width: 450PX;
-    margin-left:250px;
-  
-}
-
-#d
-{
-    height: 470PX; 
-    width: 450PX;
-    margin-left:750px;
-    margin-top: -450px;
 }
 
 .card{
