@@ -19,6 +19,6 @@ $result = mysqli_query($conn, $query);
 if(mysqli_num_rows($result) == 1){
     header('Location:../PHP/IsraelCountry.php');
 }else{
-    header('Location:../HTML/Sign-up_Log-in.html');
+    header('Location:../HTML/SignUpLogIn.html');
 }
 ?>
