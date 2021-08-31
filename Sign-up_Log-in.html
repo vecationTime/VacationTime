@@ -2,83 +2,68 @@
 <html lang="en">
  <head>
   <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <script
-   src="https://kit.fontawesome.com/64d58efce2.js"
-   crossorigin="anonymous"
-  ></script>
-  <link rel="stylesheet" a href="../CSS/Sign-up_Log-in.css"/>
-  <link rel="stylesheet" a href="../CSS/Log-in.css"/>
-  <title> Sign up & Log in </title>
- </head>
- <body>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" a href="../CSS/SignUpLogIn.css"/>
+  <link rel="stylesheet" a href="../CSS/Login.css"/>
+  <title>Sign up & Log in</title>
+  </head>
+  <body>
   <div class="container">
    <div class="forms-container">
     <div class="signin-signup">
-     <form method="POST" action="../PHP/Log_in.php" class="sign-in-form">
-        
+     <form method="POST" action="../PHP/Login.php" class="sign-in-form">
       <h1 id="ab">VacationTime</h1>
       <h2 class="title">Log in</h2>
       <div class="input-field">
        <i class="fas fa-user"></i>
-       <input type="text" placeholder="Username" name = "username" />
+       <input type="text" placeholder="Username" name="username"/>
       </div>
       <div class="input-field" id="log">
        <i class="fas fa-lock"></i>
-       <input type="password" placeholder="Password" name = "password" />
+       <input type="password" placeholder="Password" name="password"/>
       </div>
-
-      <a href ="../HTML/IsraelCountry.html" ><input class="btn solid" type="submit" value="Log in"/>
-      </a>
-      <a href ="../HTML/ChangePassword.html" ><input class="abc" value="Forget password ?"/>
-      </a>
+      <a href="../PHP/IsraelCountry.php"><input class="btn solid" type="submit" value="Log in"/></a>
+      <a href="../HTML/ChangePassword.html"><input class="abc" value="Forget password?"/></a>
      </form>
-    
-     <form method="post" action="../PHP/Sign-up.php" class="sign-up-form">
+     <form method="post" action="../PHP/SignUp.php" class="sign-up-form">
       <h1 id="ab">VacationTime</h1>
       <h2 class="title">Sign up</h2>
       <div class="input-field">
        <i class="fas fa-user"></i>
-       <input type="text" placeholder="Username" name = "username" />
+       <input type="text" placeholder="Username" name="username"/>
       </div>
       <div class="input-field">
        <i class="fas fa-lock"></i>
-       <input type="password" placeholder="Password" name = "password" />
+       <input type="password" placeholder="Password" name="password"/>
       </div>
       <div class="input-field">
         <i class="fas fa-envelope"></i>
-        <input type="mail" placeholder="Mail" name = "mail" />
+        <input type="mail" placeholder="Mail" name="mail"/>
        </div>
-      <input type="submit" class="btn" value="Sign up" />
+      <input type="submit" class="btn" value="Sign up"/>
      </form>
     </div>
    </div>
-
    <div class="panels-container">
     <div class="panel left-panel">
      <div class="content">
       <h3>New here ?</h3>
-      <p>
-       come and join our website
-      </p>
+      <p>come and join our website</p>
       <button class="btn transparent" id="sign-up-btn">Sign up</button>
      </div>
-     <img src="../IMG/log.svg" class="image" alt="" />
+     <img src="../IMG/log.svg" class="image" alt=""/>
     </div>
     <div class="panel right-panel">
      <div class="content">
       <h3>One of us ?</h3>
-      <p>
-       happy to have you
-      </p>
+      <p>happy to have you</p>
       <button class="btn transparent" id="sign-in-btn">Log in</button>
      </div>
-     <img src="../IMG/Sign_up.svg" class="image" alt="" />
+     <img src="../IMG/Sign_up.svg" class="image" alt=""/>
     </div>
    </div>
-   
   </div>
-  <script src="../JavaScript/Sign-up_Log-in.js"></script>
+  <script src="../JS/SignUpLogIn.js"></script>
  </body>
 </html>
-
