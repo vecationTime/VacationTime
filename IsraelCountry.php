@@ -12,7 +12,6 @@
             overflow-y: hidden;
             overflow-x: hidden;
         }
-
     </style>
     <script
    src="https://kit.fontawesome.com/64d58efce2.js"
