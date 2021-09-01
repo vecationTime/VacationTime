@@ -12,7 +12,7 @@ $password = $_POST['password'];
 $query = "UPDATE users SET passwordP = '$password' WHERE username = '$username'";
 
 if(mysqli_query($conn, $query)){
-    header('Location:../HTML/Sign-up_Log-in.html');
+    header('Location:../HTML/SignUpLogIn.html');
 
 }else{
     header('Location:../HTML/UpdatePassword.html');
