@@ -8,14 +8,13 @@ $db_name = "syber";
 $conn = mysqli_connect($server, $username, $password, $db_name);
 $mail = $_POST['mail'];
 
-$query = "SELECT * FROM users WHERE Mail = '$mail'";
+$query = "SELECT * FROM users WHERE mail = '$mail'";
 
 $result = mysqli_query($conn, $query);
 
-if(mysqli_num_rows($result) == 1){
+if(mysqli_num_rows($result) > 0){
     header('Location:../HTML/UpdatePassword.html');
-
 }else{
-    header('Location:../HTML/Sign-up_Log-in.html');
+    header('Location:../HTML/SignUpLogIn.html');
 }
 ?>
