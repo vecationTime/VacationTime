@@ -1,5 +1,5 @@
 <?php
-$to       = 'raphael2791@hotmail.fr';
+$to       = 'sShakedi125@gmail.com';
 $subject  = 'Testing sendmail.exe';
 $message  = 'Hi, you just received an email using sendmail!';
 $headers  = 'From: [vacationtime2345]@gmail.com' . "\r\n" .
@@ -11,3 +11,4 @@ else
     echo "Email sending failed";
 
 ?>
+
