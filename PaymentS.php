@@ -31,7 +31,7 @@
             
            <div class="input-group">
                <div class="input-box">
-                    <input type="email" placeholder="Email Address" required class="name" name="Mail">
+                    <input type="text" placeholder="Email Address" required class="name" name="mail">
                </div>
            </div> 
 
@@ -63,7 +63,8 @@
         
         <?php
             echo "<br>"; 
-            echo "<p style = 'color: crimson; text-align: center; font-size: 25px'>Payment successful</p><br>";
+            echo "<p style = 'color: crimson; text-align: center; font-size: 25px'>
+            Payment successful ,Please chack your email!!!</p><br>";
         ?>
     </div>
 </body>
