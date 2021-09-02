@@ -12,7 +12,7 @@ $query = "SELECT * FROM OrderHotel WHERE CheckIn = '$CheckIn' and CheckOut = '$C
         if($resultCheck>0){
             while($row = mysqli_fetch_assoc($result)){
                if($row['Available']=="Yes"){
-                header('Location:../HTML/Payment.html');
+                header('Location:../HTML/Rooms.html');
                }
                else{
                 header('Location:../PHP/MamillaDateError.php');
