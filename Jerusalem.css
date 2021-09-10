@@ -11,10 +11,8 @@
     background-image: url(../IMG/Jerusalem11.jfif);
   }
 
-
   #a
   {
-
     position: relative;
     text-align: center;
     color: goldenrod;
@@ -79,8 +77,6 @@
    margin-left:320px;
  }
  
-
- 
  .card:hover{
    transform: translateY(-10px);
  }
@@ -97,21 +93,18 @@
  .container{
    position: relative;
    align-items: center;
-  
-   
  }
 
- /* Style buttons */
+
 .btn {
-  background-color: DodgerBlue; /* Blue background */
-  border: none; /* Remove borders */
-  color: white; /* White text */
-  padding: 12px 16px; /* Some padding */
-  font-size: 16px; /* Set a font size */
-  cursor: pointer; /* Mouse pointer on hover */
+  background-color: DodgerBlue; 
+  border: none; 
+  color: white;
+  padding: 12px 16px; 
+  font-size: 16px;
+  cursor: pointer; 
 }
 
-/* Darker background on mouse-over */
 .btn:hover {
   background-color: DodgerBlue;
 }
