@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Israel</title>
+    <title>IsraelCountry</title>
     <link rel="stylesheet" a href="../CSS/IsraelCountry.css">
      <style>
         body{ overflow-y: hidden; overflow-x: hidden; }
@@ -24,7 +24,7 @@
         echo "<img src='../IMG/user.png' style='height: 50px; wight:15px; position:relative; 
         top: -880px; left: 1195px;'/>";
         echo "<p style = 'color: white; text-align: center; position: relative; 
-        top: -950px; left: 620px; font-size: 25px'> hello ".$_SESSION['username']."</p><br>";
-        ?>
+        top: -950px; left: 620px; font-size: 25px'> ".$_SESSION['username']."</p><br>";
+    ?>
 </body>
 </html>
