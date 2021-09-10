@@ -31,7 +31,7 @@
             
            <div class="input-group">
                <div class="input-box">
-                    <input type="text" placeholder="Email Address" required class="name" name="mail">
+                    <input type="email" placeholder="Email Address" required class="name" name="Mail">
                </div>
            </div> 
 
