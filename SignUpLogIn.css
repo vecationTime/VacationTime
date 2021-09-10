@@ -7,8 +7,7 @@
   font-family: sans-serif;
 }
 
-body,
-input {
+body,input {
   font-family: 'Poppins', sans-serif;
 }
 
@@ -19,7 +18,6 @@ input {
   min-height: 100vh;
   overflow: hidden;
   background-image: url(../IMG/vacation.jpg);
-  
 }
 
 .container.ab{
@@ -42,7 +40,6 @@ input {
   border-radius: 50%;
   z-index: 6;
 }
-
 .forms-container {
   position: absolute;
   width: 100%;
@@ -50,12 +47,9 @@ input {
   top: 0;
   left: 0;
 }
-
 form {
   display: flex;
-  /*Distributes Flex-items along the Cross Axis */
   align-items: center;
-  /*Distributes Flex-items along the Main Axis */
   justify-content: center;
   flex-direction: column;
   padding: 0 5rem;
@@ -65,11 +59,9 @@ form {
   grid-row: 1 / 2;
   transition: 0.2s 0.7s ease-in-out;
 }
-
 form.sign-in-form {
   z-index: 2;
 }
-
 form.sign-up-form {
   z-index: 1;
   opacity: 0;
@@ -84,7 +76,6 @@ form.sign-up-form {
 .input-field {
   max-width: 380px;
   width: 100%;
-
   height: 55px;
   background-color: #f0f0f0;
   margin: 10px 0;
