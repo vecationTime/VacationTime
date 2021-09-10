@@ -34,7 +34,6 @@
                     </p></strong>
                 </section>
 
-                
                 <section>
                     <i style="margin-left: 150px;" class="fa fa-phone fa-2x" aria-hidden="true"></i>
                     <h2 style="color: royalblue; margin-left: 150px;">Phone</h2>
