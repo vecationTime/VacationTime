@@ -5,9 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
-  }@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
-
-
+  }
 
   body{
     font-family: 'Poppins', sans-serif;
@@ -69,17 +67,6 @@
    background-size: cover;
  }
 
- .card1{
-  background-image: url(../IMG/dan_ta.jpg);
-}
-
-.card2{
-  background-image: url(../IMG/hilton_ta.jpg);
-}
-
-.card3{
-  background-image: url(../IMG/sheraton_ta.jpg);
-}
 
 .card4{
   background-image: url(../IMG/herods.jpg);
@@ -178,12 +165,9 @@ h4{
    background-size: cover;
  }
 
-
-
 .card4{
   background-image: url(../IMG/herods.jpg);
   margin-left:320px;
-
 }
 
 .card:hover{
