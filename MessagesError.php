@@ -62,7 +62,7 @@
   
               <div class="contact-form">
                   <input style="color: crimson" type="E-mail" required>
-                  <span style="color: crimson">E-mail</span>
+                  <span style="color: crimson">Email</span>
               </div>
 
               <div class="contact-form">
@@ -81,7 +81,8 @@
     </div>   
     
     <?php 
-         echo "<p style = 'color: crimson; text-align: center; position: relative; top: -350px; left: 150px; font-size: 25px'>Error, please try again</p><br>";
+         echo "<p style = 'color: crimson; text-align: center; position: relative; 
+         top: -250px; left: 160px; font-size: 25px'>Error, please try again</p><br>";
          echo "<br>";
     ?>
 
