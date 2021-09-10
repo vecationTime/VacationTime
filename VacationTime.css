@@ -3,12 +3,9 @@
 *{
     font-family: sans-serif;
     box-sizing: border-box;
-   
-   
 }
 
 body{
-    
     font-family: 'Poppins', sans-serif;
     background-image: url(../IMG/beach.jpg);
 }
@@ -99,7 +96,6 @@ font-weight: 300;
     text-decoration: none;
     font-weight: 500;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-
 }
 
 .middle{
@@ -181,7 +177,6 @@ h1{
     min-height: 100%;
   }
   
-  /* Add some content at the bottom of the video/page */
   .content {
     position: fixed;
     bottom: 0;
