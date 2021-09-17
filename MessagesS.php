@@ -10,10 +10,7 @@
     integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <style>
         body
-        {
-            overflow-y: hidden;
-            overflow-x: hidden;
-        }
+        {overflow-y: hidden;overflow-x: hidden;}
     </style>
 </head>
 <body >
@@ -33,14 +30,12 @@
                     Shmuel Hanagid 13 Herzelia.<br>
                     </p></strong>
                 </section>
-
                 <section>
                     <i style="margin-left: 150px;" class="fa fa-phone fa-2x" aria-hidden="true"></i>
                     <h2 style="color: royalblue; margin-left: 150px;">Phone</h2>
                     <p style="color: royalblue; margin-left: 150px;">0544266643<br>
                     0525322828</p></strong>
                 </section>
-
                 <section>
                     <i style="margin-left: 150px;" class="fa fa-envelope fa-2x" aria-hidden="true"></i>
                     <h2 style="color: royalblue; margin-left: 150px;">E-mail</h2>
@@ -55,17 +50,17 @@
         <div class="form">
             <div class="right">
               <div class="contact-form">
-                  <input style="color: crimson" type="text" required>
+                  <input style="color: #20dbc2" type="text" required>
                   <span style="color: crimson">Full Name</span>
               </div>
   
               <div class="contact-form">
-                  <input style="color: crimson" type="E-mail" required>
+                  <input style="color: #20dbc2" type="E-mail" required>
                   <span style="color: crimson">E-mail</span>
               </div>
 
               <div class="contact-form">
-                  <textarea style="color: crimson" name="text">
+                  <textarea style="color: #20dbc2" name="text">
                   </textarea>
                   <span style="color: crimson"> Type your Message.... </span>
               </div>
