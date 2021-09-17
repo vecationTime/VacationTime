@@ -3,12 +3,9 @@
 *{
     font-family: sans-serif;
     box-sizing: border-box;
-   
-   
 }
 
 body{
-    
     font-family: 'Poppins', sans-serif;
     background-image: url(../IMG/beach.jpg);
 }
@@ -28,7 +25,6 @@ body{
     flex-wrap: wrap;
     z-index: 1;
 }
-
 
 .container .card
 {
@@ -99,7 +95,6 @@ font-weight: 300;
     text-decoration: none;
     font-weight: 500;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-
 }
 
 .middle{
@@ -110,7 +105,6 @@ font-weight: 300;
     text-align:center;
     bottom: 900px;
 }
-
 .btn{
     background: none;
     border: 2px solid #20dbc2;
@@ -124,13 +118,11 @@ font-weight: 300;
     position: relative;
     bottom: -280px;
     font-size: 20px;
-    margin-top: 30px;
+    margin-top: -10px;
 }
-
 .btn:hover{
 color: #fff;
 }
-
 .btn::before{
    content: "";
    position: absolute; 
@@ -172,7 +164,6 @@ h1{
     bottom: 30px;
 }
 
-
 #myVideo {
     position: fixed;
     right: 0;
@@ -181,7 +172,6 @@ h1{
     min-height: 100%;
   }
   
-  /* Add some content at the bottom of the video/page */
   .content {
     position: fixed;
     bottom: 0;
@@ -191,7 +181,6 @@ h1{
     padding: 20px;
   }
   
-  /* Style the button used to pause/play the video */
   #myBtn {
     width: 200px;
     font-size: 18px;
