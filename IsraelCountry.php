@@ -9,8 +9,7 @@
      <style>
         body{ overflow-y: hidden; overflow-x: hidden; }
     </style>
-    <script
-   src="https://kit.fontawesome.com/64d58efce2.js"crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/64d58efce2.js"crossorigin="anonymous"></script>
 </head>
 <body>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
