@@ -7,9 +7,17 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     <title>Herods Hotel</title>
     <link rel="stylesheet" href="../CSS/HerodsHotel.css">
+    <style>
+      body
+      {
+          overflow-y: hidden;
+          overflow-x: hidden;
+      }
+  </style>
 </head>
 <body>
     <h1 >Herods Hotel</h1>
+    <h3 style="text-align: center; color: crimson;">for more info please call: 03-521-6666</h3>
     <nav role="navigation">
         <div id="menuToggle">
           <input type="checkbox" />
