@@ -5,9 +5,17 @@
     <title>King Solomon Hotel</title>
     <link rel="stylesheet" href="../CSS/KingSolomonHotel.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-<body>
+    <style>
+      body
+      {
+          overflow-y: hidden;
+          overflow-x: hidden;
+      }
+  </style>
+    </head>
+       <body>
         <h1 >King Solomon Hotel</h1>
+        <h3 style="text-align: center; color: goldenrod;">for more info please call: 08-636-3444 </h3>
         <nav role="navigation">
             <div id="menuToggle">
               <input type="checkbox" />
@@ -23,15 +31,15 @@
             </div>
           </nav>
         <form style="margin-top: 220px; margin-left: 0px; text-align: center; " method="POST" action="../PHP/KingSolomonSaveDate.php">
-        <label  style="color: crimson; font-size: 20px;" for="Check-in:">Check-in</label>
+        <label  style="color: goldenrod; font-size: 20px;" for="Check-in:">Check-in</label>
         <input type="date" name="Check-in">
-        <label style="color:crimson; font-size: 20px;" for="Check-out:">Check-out</label>
+        <label style="color:goldenrod; font-size: 20px;" for="Check-out:">Check-out</label>
         <input type="date" name="Check-out">
         <input type="submit" value="search">
         </form>
         <?php
             echo "<br>"; 
-            echo "<p style ='color: crimson; text-align: center; font-size: 25px';>The dates aren't available please try again</p><br>";
+            echo "<p style ='color: goldenrod; text-align: center; font-size: 25px';>The dates aren't available please try again</p><br>";
         ?>
 </body>
 </html>
