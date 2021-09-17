@@ -1,19 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
-
-body
-{
+body{
 background-image: url(../IMG/rent\ a\ car.jfif);
 font-family: 'Poppins', sans-serif;
 }
 
 h1{
  color: crimson;
-text-align: center;
-        
+text-align: center;       
 }
 
-#a112
-{
+#a112{
   color: aqua;
   font-size: 25px;
 }
@@ -30,8 +26,7 @@ text-align: center;
 .btn:hover {
   background-color: goldenrod;
 }
-.grid
-{
+.grid{
   margin: 70px;
   display: grid;
   grid-template-columns: repeat(3,1fr);
@@ -39,8 +34,7 @@ text-align: center;
   align-items: center;
 }
 
-.grid > article
-{
+.grid > article{
   background: #eee5e9;
   border: none;
   box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
@@ -50,32 +44,27 @@ text-align: center;
   transition: transform .3s;
 }
   
-.grid > article:hover
-{
+.grid > article:hover{
   transform: translateY(5px);
   box-shadow: 2px 2px 26px 0px rgba(0, 0, 0, 0.3);
 }
  
-.grid > article img
-{
+.grid > article img{
 width: 100%;
 border-top-left-radius: 20px;
 border-top-right-radius: 20px;
 }
 
-.text 
-{
+.text {
   padding: 0 20px 20px;
   margin-left: 0px;
 }
 
-.text h3
-{
+.text h3{
 text-transform: uppercase;
 }
 
-.text button
-{
+.text button{
   background: crimson;
   border-radius: 20px;
   border: none;
@@ -86,7 +75,6 @@ text-transform: uppercase;
   text-transform: uppercase;
   cursor: pointer;
 }
-
 
 @media (max-width: 768px)
 {
