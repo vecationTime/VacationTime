@@ -1,10 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
   }
 
   body{
@@ -19,38 +17,11 @@
   }
 
 #x{
-    color:gold;
+    color:rgb(18, 165, 198);
     font-size: 20px;
      margin-bottom: -30px;
 }
 
- #a{
-  margin-top: -10px; 
-    height: 450PX;   
-    margin-left:250px;
-}
-
- #b{
-  padding-bottom: 50px;
-  margin-left:550px;
-  margin-top: -450px;
-  height: 450PX; 
-  width: 450PX;  
-  margin-left:750px;
-  }
-
- #c{
-  height: 470PX; 
-    width: 450PX;
-    margin-left:250px;
-}
-
- #d{
-  height: 470PX; 
-  width: 450PX;
-  margin-left:750px;
-  margin-top: -450px;
- }
  .card{
    text-align: center;
    position: relative;
@@ -67,9 +38,10 @@
    background-size: cover;
  }
 
-
 .card4{
   background-image: url(../IMG/herods.jpg);
+  margin-left: 300px;
+  margin-top: -100px;
 }
 
 .card:hover{
@@ -91,7 +63,6 @@ h4{
   margin: 200px;
 }
 
-/* Style buttons */
 .btn {
   background-color: rgb(154, 214, 224); /* Blue background */
   border: none; /* Remove borders */
@@ -101,105 +72,7 @@ h4{
   cursor: pointer; /* Mouse pointer on hover */
 }
 
-/* Darker background on mouse-over */
 .btn:hover {
   background-color: rgb(154, 214, 224);
 }
 
-  body{
-    font-family: 'Poppins', sans-serif;
-    background-image: url(../IMG/ta2.jpg);
-  }
-
-  h1{
-      position: relative;
-      text-align: center;
-      color:royalblue;
-  }
-
-#x{
-    color:gold;
-    font-size: 20px;
-}
-
- #a{
-  margin-top: -10px; 
-    height: 450PX;   
-    margin-left:250px;
-}
-
- #b{
-  padding-bottom: 50px;
-  margin-left:550px;
-  margin-top: -450px;
-  height: 450PX; 
-  width: 450PX;  
-  margin-left:750px;
-  }
-
- #c{
-  height: 470PX; 
-    width: 450PX;
-    margin-left:250px;
-}
-
- #d{
-  height: 470PX; 
-  width: 450PX;
-  margin-left:750px;
-  margin-top: -450px;
- }
- .card{
-   text-align: center;
-   position: relative;
-   width: 500px;
-   height: 270px;
-   display: inline-block;
-   border-radius: 10px;
-   padding: 15px 25px;
-   box-sizing: border-box;
-   cursor: pointer;
-   margin: 10px 15px;
-   transition: transform 0.5s;
-   background-position: center;
-   background-size: cover;
- }
-
-.card4{
-  background-image: url(../IMG/herods.jpg);
-  margin-left:320px;
-}
-
-.card:hover{
-  transform: translateY(-10px);
-}
-
-h4{
-  color: #fff;
-  text-shadow: 0 0 5px #999;
-}
-
-#pi{
-  color:white;
-}
-
-.container{
-  position: relative;
-  align-items: center;
-  margin: 200px;
-}
-
-/* Style buttons */
-.btn {
-  background-color: rgb(154, 214, 224); /* Blue background */
-  border: none; /* Remove borders */
-  color: rgb(192, 24, 24); /* White text */
-  padding: 12px 16px; /* Some padding */
-  font-size: 16px; /* Set a font size */
-  cursor: pointer; /* Mouse pointer on hover */
-}
-
-/* Darker background on mouse-over */
-.btn:hover {
-  background-color: rgb(154, 214, 224);
-}
