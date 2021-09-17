@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
-
-
-
-body{
-    
+body{ 
   font-family: 'Poppins', 'sans-serif';
   background-image: url(../IMG/kingsolomon.jpg);
 }
@@ -51,8 +47,8 @@ h3{
   top: -7px;
   left: -5px;
   cursor: pointer;
-  opacity: 0; /* hide this */
-  z-index: 2; /* and place it over the hamburger */
+  opacity: 0;
+  z-index: 2; 
   -webkit-touch-callout: none;
 }
 #menuToggle span
