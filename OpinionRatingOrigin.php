@@ -3,7 +3,14 @@
   <head>
     <meta charset="utf-8">
     <title>Rating&Opinion Form</title>
-    <link rel="stylesheet" a href="../CSS/OpinionRating.css">  </head>
+    <link rel="stylesheet" a href="../CSS/OpinionRating.css">
+    <style>
+        body
+        {
+            overflow-y: scroll;
+        }
+    </style>  
+  </head>
   <body>
 <div class="a">
       <form method="POST" action="../PHP/OpinionRating.php">
@@ -20,15 +27,21 @@
         </div>
         <?php
         $conn=mysqli_connect("localhost","root","","syber");
+
         $sql = "SELECT * FROM Opinion;";
+
         $result = mysqli_query($conn, $sql);
+
         $resultCheck = mysqli_num_rows($result);
+
         echo "<br>";
-        if($resultCheck>0){
-            while($row = mysqli_fetch_assoc($result)){
-                echo "<p style = 'color: white; text-align: center; font-size: 25px';>".$row['rating']."-".$row['opinion'];
-                echo "<br>";
-            }
+        if($resultCheck>0)
+        {
+          while($row = mysqli_fetch_assoc($result))
+          {
+            echo "<p style = 'color: white; text-align: center; font-size: 25px';>".$row['rating']."-".$row['opinion'];
+            echo "<br>";
+          }
         }
         ?>
 <section></section>
