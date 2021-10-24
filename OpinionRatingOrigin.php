@@ -9,39 +9,38 @@
         {
             overflow-y: scroll;
         }
+        #a
+        {
+          width: 200px;
+          height: 50px
+        }
     </style>  
   </head>
   <body>
 <div class="a">
-      <form method="POST" action="../PHP/OpinionRating.php">
+      <form method="POST" action="../PHP/OpinionRating.php"> Rating: 
         <input type="radio" name="rating" value="1">1
         <input type="radio" name="rating" value="2">2
         <input type="radio" name="rating" value="3">3
         <input type="radio" name="rating" value="4">4
         <input type="radio" name="rating" value="5">5
           <div class="textarea">
-            <textarea name="opinion" cols="30" placeholder="Describe your experience.."></textarea>
+           Opinion: <input  style = "font-size: 17px;" id = "a" name="opinion" cols="30" placeholder="Describe your experience.."></input>
           </div>
         <input type="submit" value="post">
         </form>
         </div>
         <?php
         $conn=mysqli_connect("localhost","root","","syber");
-
         $sql = "SELECT * FROM Opinion;";
-
         $result = mysqli_query($conn, $sql);
-
         $resultCheck = mysqli_num_rows($result);
-
         echo "<br>";
-        if($resultCheck>0)
-        {
-          while($row = mysqli_fetch_assoc($result))
-          {
-            echo "<p style = 'color: white; text-align: center; font-size: 25px';>".$row['rating']."-".$row['opinion'];
-            echo "<br>";
-          }
+        if($resultCheck>0){
+            while($row = mysqli_fetch_assoc($result)){
+                echo "<p style = 'color: white; text-align: center; font-size: 25px';>"."Rating: ".$row['rating']." - "."Opinion: ".$row['opinion'];
+                echo "<br>";
+            }
         }
         ?>
 <section></section>
