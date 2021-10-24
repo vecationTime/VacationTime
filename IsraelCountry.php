@@ -9,7 +9,8 @@
      <style>
         body{ overflow-y: hidden; overflow-x: hidden; }
     </style>
-    <script src="https://kit.fontawesome.com/64d58efce2.js"crossorigin="anonymous"></script>
+    <script
+   src="https://kit.fontawesome.com/64d58efce2.js"crossorigin="anonymous"></script>
 </head>
 <body>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -20,10 +21,10 @@
     </div>
    <?php
         session_start();
-        echo "<img src='../IMG/user.png' style='height: 50px; wight:15px; position:relative; 
-        top: -880px; left: 1195px;'/>";
+        echo "<img src='../IMG/profile.jpeg' style='height: 50px; wight:15px; position:relative; 
+        top: -830px; left: 1250px;'/>";
         echo "<p style = 'color: white; text-align: center; position: relative; 
-        top: -950px; left: 620px; font-size: 25px'> ".$_SESSION['username']."</p><br>";
+        top: -900px; left: 620px; font-size: 25px'> ".$_SESSION['username']."</p><br>";
     ?>
 </body>
 </html>
