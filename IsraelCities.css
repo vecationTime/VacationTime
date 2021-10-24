@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
 body{
     font-family: 'Poppins', sans-serif;
-    background-image: url(../IMG/Israel1.jpg);  
+    background-image: url(../IMG/israel1.jpg);
 }
+
 h1
 {
     position: relative;
@@ -10,6 +12,7 @@ h1
     color:rgb(13, 172, 245);
     font-size: 40px;
 }
+
 #x
 {
     color: #fff;
@@ -42,7 +45,7 @@ h1
  
  .card3{
    background-image: url(../IMG/jerusalem1.jpg);
-   margin-left: 280px;
+   margin-left: 280px; 
  }
 
  .card:hover
