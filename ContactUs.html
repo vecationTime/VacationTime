@@ -10,7 +10,10 @@
     integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <style>
         body
-        {overflow-y: hidden; overflow-x: hidden;}
+        {
+            overflow-y: hidden;
+            overflow-x: hidden;
+        }
     </style>
 </head>
 <body >
@@ -30,12 +33,14 @@
                     Shmuel Hanagid 13 Herzelia.<br>
                     </p></strong>
                 </section>
+                
                 <section>
                     <i style="margin-left: 150px;" class="fa fa-phone fa-2x" aria-hidden="true"></i>
                     <h2 style="color: rgb(54, 94, 214); margin-left: 150px;">Phone</h2>
                     <p style="color: rgb(54, 94, 214); margin-left: 150px;">0544266643<br>
                     0525322828</p></strong>
                 </section>
+
                 <section>
                     <i style="margin-left: 150px;" class="fa fa-envelope fa-2x" aria-hidden="true"></i>
                     <h2 style="color: rgb(54, 94, 214); margin-left: 150px;">E-mail</h2>
@@ -45,17 +50,18 @@
                 </section>
             </div>
         </div>
-      <form method="post" action="../PHP/messages.php" class="sign-up-form">
+
+      <form method="post" action="../PHP/Messages.php" class="sign-up-form">
         <div class="form">
             <div class="right">
               <div class="contact-form">
                   <input name="fullname" style="color: #20dbc2" type="text" required>
                   <span style="color: crimson">Full Name</span>
               </div>
-
+  
               <div class="contact-form">
                   <input name="Email" style="color: #20dbc2" type="Email" required>
-                  <span style="color: crimson">Email</span>
+                  <span style="color: crimson">E-mail</span>
               </div>
 
               <div class="contact-form">
@@ -63,7 +69,7 @@
                   </textarea>
                   <span style="color: crimson"> Type your Message.... </span>
               </div>
-
+  
               <div class="contact-form">
                   <input type="submit" input="submit">
               </div>
