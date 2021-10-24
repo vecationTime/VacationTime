@@ -7,13 +7,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
       body
-      {
-          overflow-y: hidden;
-          overflow-x: hidden;
+      {         
+        overflow-y: hidden;
+        overflow-x: hidden;
+        background-image: url(../IMG/kingsolomonEilat.jpg);
       }
   </style>
-    </head>
-       <body>
+</head>
+<body>
         <h1 >King Solomon Hotel</h1>
         <h3 style="text-align: center; color: goldenrod;">for more info please call: 08-636-3444 </h3>
         <nav role="navigation">
@@ -30,13 +31,14 @@
               </ul>
             </div>
           </nav>
-        <form style="margin-top: 220px; margin-left: 0px; text-align: center; " method="POST" action="../PHP/KingSolomonSaveDate.php">
-        <label  style="color: goldenrod; font-size: 20px;" for="Check-in:">Check-in</label>
+          <form style="margin-top: 220px; margin-left: 470px ;font-family: 'Poppins', sans-serif;
+         "method="POST" action="../PHP/HerodsSaveDate.php">
+        <strong><label  style="  color: aqua; font-size: 30px; ;" for="Check-in:">Check-in</label></strong>
         <input type="date" name="Check-in">
-        <label style="color:goldenrod; font-size: 20px;" for="Check-out:">Check-out</label>
+        <strong><label style=" color:aqua; font-size: 30px;" for="Check-out:">Check-out</label></strong>
         <input type="date" name="Check-out">
         <input type="submit" value="search">
-        </form>
+      </form>
         <?php
             echo "<br>"; 
             echo "<p style ='color: goldenrod; text-align: center; font-size: 25px';>The dates aren't available please try again</p><br>";
