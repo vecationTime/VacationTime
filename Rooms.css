@@ -1,17 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body
+{
     display: flex;
     justify-content: center;
     align-items: center;
     background: #232427;
     font-family: 'Poppins', sans-serif;
 }
-.container{
+
+.container
+{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,7 +24,9 @@ body{
     max-width: 1200px;
     padding: 100px 0 50px;
 }
-.container .card{
+
+.container .card
+{
     position: relative;
     min-width: 320px;
     height: 500px;
@@ -30,7 +37,9 @@ body{
     border-radius: 15px;
     margin: 30px;
 }
-.container .card .box{
+
+.container .card .box
+{
     position:absolute;
     top: 20px;
     left: 20px;
@@ -45,44 +54,52 @@ body{
     align-items: center;
 }
 
-.container .card:hover .box{
+.container .card:hover .box
+{
     transform: translateY(-50px);
     box-shadow: 0 40px 70px rgba(0,0,0,0.5);
 }
 
-.container .card .box .content{
+.container .card .box .content
+{
     padding: 20px;
     text-align: center;
 }
 
-.container .card .box .content h3{
+.container .card .box .content h3
+{
     font-size: 1.8em;
     color: #fff;
     font-weight: 300;
 }
 
-.container .card .box .content h4{
+.container .card .box .content h4
+{
     color: #fff;
     font-size: 3em;
     font-weight: 700;
 }
 
-.container .card .box .content h4 sup{
+.container .card .box .content h4 sup
+{
     font-size: 0.75em;
     font-weight: 300;
 }
 
-.container .card .box .content ul{
+.container .card .box .content ul
+{
     position: relative;
 }
 
-.container .card .box .content ul li{
+.container .card .box .content ul li
+{
     list-style: none;
     color: #fff;
     margin: 5px 0;
 }
 
-.container .card .box .content a{
+.container .card .box .content a
+{
     position: relative;
     display: inline-block;
     padding: 8px 20px;
@@ -94,17 +111,20 @@ body{
     font-weight: 400;
 }
 
-.container .card:nth-child(1) .box .content a{
+.container .card:nth-child(1) .box .content a
+{
     background: royalblue;
     box-shadow: 0 10px 20px rgba(0,0,0,0.2);
 }
 
-.container .card:nth-child(2) .box .content a{
+.container .card:nth-child(2) .box .content a
+{
     background: crimson;
     box-shadow: 0 10px 20px rgba(0,0,0,0.2);
 }
 
-.container .card:nth-child(3) .box .content a{
+.container .card:nth-child(3) .box .content a
+{
     background: goldenrod;
     box-shadow: 0 10px 20px rgba(0,0,0,0.2);
 }
@@ -141,9 +161,6 @@ body.light .container .card
     10px 10px 10px rgba(0,0,0,0.03),
     -10px -10px 15px rgba(255,255,255,0.5);
 }
-
-
-
 
 body.light .container .card .box
 {
