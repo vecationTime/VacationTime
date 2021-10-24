@@ -7,16 +7,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     <title>Herods Hotel</title>
     <link rel="stylesheet" href="../CSS/HerodsHotel.css">
-    <style>
-      body
-      {
-          overflow-y: hidden;
-          overflow-x: hidden;
-      }
-  </style>
 </head>
 <body>
-    <h1 >Herods Hotel</h1>
+    <h1>Herods Hotel</h1>
     <h3 style="text-align: center; color: crimson;">for more info please call: 03-521-6666</h3>
     <nav role="navigation">
         <div id="menuToggle">
@@ -32,14 +25,14 @@
           </ul>
         </div>
       </nav>
-      <form style="margin-top: 220px; margin-left: 0px; text-align: center; font-family: 'Poppins', sans-serif;
+      <form style="margin-top: 220px; margin-left: 470px ;font-family: 'Poppins', sans-serif;
          "method="POST" action="../PHP/HerodsSaveDate.php">
-        <label  style="  color: crimson; font-size: 20px;" for="Check-in:">Check-in</label>
+        <strong><label  style="  color: aqua; font-size: 30px; ;" for="Check-in:">Check-in</label></strong>
         <input type="date" name="Check-in">
-        <label style=" color:crimson; font-size: 20px;" for="Check-out:">Check-out</label>
+        <strong><label style=" color:aqua; font-size: 30px;" for="Check-out:">Check-out</label></strong>
         <input type="date" name="Check-out">
         <input type="submit" value="search">
-        </form>
+      </form>
         <?php
             echo "<br>"; 
             echo "<p style = 'color: crimson; font-size: 25px;text-align:center;'>The dates aren't available please try again</p><br>";
