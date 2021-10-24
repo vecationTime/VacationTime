@@ -38,6 +38,7 @@
    background-size: cover;
  }
 
+
 .card4{
   background-image: url(../IMG/herods.jpg);
   margin-left: 300px;
@@ -63,6 +64,7 @@ h4{
   margin: 200px;
 }
 
+/* Style buttons */
 .btn {
   background-color: rgb(154, 214, 224); /* Blue background */
   border: none; /* Remove borders */
@@ -72,7 +74,7 @@ h4{
   cursor: pointer; /* Mouse pointer on hover */
 }
 
+/* Darker background on mouse-over */
 .btn:hover {
   background-color: rgb(154, 214, 224);
 }
-
