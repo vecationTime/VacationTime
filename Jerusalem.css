@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
 * {
     box-sizing: border-box;
   }
@@ -14,7 +15,6 @@
     text-align: center;
     color: goldenrod;
     font-size: 45px;
-
   }
 
   #x
@@ -22,7 +22,7 @@
     color: goldenrod;
     font-size: 35px;
   }
-  
+
   .card{
     text-align: center;
     position: relative;
@@ -61,6 +61,7 @@
    position: relative;
    align-items: center;
  }
+
 
 .btn {
   background-color: DodgerBlue; 
