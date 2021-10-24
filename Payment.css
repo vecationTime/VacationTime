@@ -1,19 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
-*
-{
+
+*{
  margin: 0;
  padding: 0;
- box-sizing: border-box;  
+ box-sizing: border-box;
 }
 
 body
 {
+    font-family: 'Poppins', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     background-image: url("../IMG/payment.jpg");
-    font-family: 'Poppins', sans-serif;
 }
 
 .wrapper
@@ -63,7 +63,8 @@ h4
     margin-right: 0;
 }
 
-.name{
+.name
+{
     padding: 10px 10px 10px 30px;
     width: 100%;
     background-color: #fcfcfc;
@@ -75,14 +76,17 @@ h4
     color: #333;
 }
 
-.name:focus, .dob:focus{
+.name:focus, .dob:focus
+{
     box-shadow: 0 0 6px 3px goldenrod;
     -moz-box-shadow: 0 0 6px 3px goldenrod;
     box-shadow: 0 0 6px 3px goldenrod;
     border: 1px solid goldenrod;
 }
 
-.input-box .icon{
+
+.input-box .icon
+{
     width: 48px;
     display: flex;
     justify-content: center;
@@ -101,14 +105,17 @@ h4
     border-right: none;
 }
 
-.name:focus + .icon{
+.name:focus + .icon
+{
     background-color: #7ed321;
     color: #fff;
     border-right: 1px solid #7ed321;
     border: none;
     transition: 1px;
 }
-.dob{
+
+.dob
+{
    width: 30%;
     padding: 14px;
     text-align: center;
@@ -118,7 +125,9 @@ h4
     border: 1px solid #c0bfc0;
     border-radius: 3px;
 }
-.radio{
+
+.radio
+{
  display: none;   
 }
 
@@ -147,7 +156,7 @@ h4
 
 .radio:checked + label
 {
-    background-color: rgb(15, 67, 221);
+    background-color: royalblue;
     color: #fff;
     transition: 0.5s;
 }
@@ -165,7 +174,8 @@ h4
     transition: all 0.2S ease;
 }
 
-.input-box select:focus{
+.input-box select:focus
+{
     background-color: crimson;
     color: #fff;
     text-align: center;
