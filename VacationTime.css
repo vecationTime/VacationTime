@@ -83,20 +83,6 @@ color: #fff;
 font-weight: 300;
 }
 
-.container .card .content a
-{
-    position: relative;
-    display: inline-block;
-    padding: 8px 20px;
-    margin-top: 15px;
-    background: #fff;
-    color: #000;
-    border-radius: 20px;
-    text-decoration: none;
-    font-weight: 500;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-}
-
 .middle{
     position:absolute;
     top: 50%;
@@ -107,7 +93,6 @@ font-weight: 300;
 }
 .btn{
     background: none;
-    border: 2px solid #20dbc2;
     font-family: "montserrat", sans-serif;
     text-transform: uppercase;
     padding: 12px 20px;
@@ -118,9 +103,7 @@ font-weight: 300;
     position: relative;
     bottom: -280px;
     font-size: 20px;
-    margin-top: -10px;
-}
-.btn:hover{
+}.btn:hover{
 color: #fff;
 }
 .btn::before{
@@ -163,14 +146,6 @@ h1{
     font-size: 30px;
     bottom: 30px;
 }
-
-#myVideo {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-  }
   
   .content {
     position: fixed;
@@ -179,19 +154,4 @@ h1{
     color: #f1f1f1;
     width: 100%;
     padding: 20px;
-  }
-  
-  #myBtn {
-    width: 200px;
-    font-size: 18px;
-    padding: 10px;
-    border: none;
-    background: #000;
-    color: #fff;
-    cursor: pointer;
-  }
-  
-  #myBtn:hover {
-    background: #ddd;
-    color: black;
   }
