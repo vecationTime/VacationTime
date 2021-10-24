@@ -1,14 +1,14 @@
 .abc{
-    width: 150px;
-    height: 49px;
-    border: none;
-    outline: none;
-    border-radius: 48px;
-    cursor: pointer;
-    background-color: #20dbc2;
-    color: #fff;
-    text-transform: uppercase;
-    transition: all 0.5s;
-    padding: 10px 10px 10px 10px;
-    font-size: 10px;
-  }
+  width: 150px;
+  height: 49px;
+  border: none;
+  outline: none;
+  border-radius: 48px;
+  cursor: pointer;
+  background-color: #20dbc2;
+  color: #fff;
+  text-transform: uppercase;
+  transition: all 0.5s;
+  padding: 10px 10px 10px 10px;
+  font-size: 10px;
+}
