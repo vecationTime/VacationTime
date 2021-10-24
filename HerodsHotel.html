@@ -7,9 +7,30 @@
     <title>Herods Hotel</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     <link rel="stylesheet" href="../CSS/HerodsHotel.css">
+  <link rel="stylesheet" a href="../CSS/Login.css"/>
     <style>
       body
       { overflow-y: hidden; overflow-x: hidden; }
+      .btn {
+        position: relative;
+        left: 700px;
+      width: 170px;
+      height: 69px;
+      border: none;
+      outline: none;
+      border-radius: 48px;
+  cursor: pointer;
+  background-color: #20dbc2;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 10px 0;
+  transition: all 0.5s;
+  padding: 5px 5px 5px 5px;
+}
+.btn:hover {
+  background-color: #00bfa6;
+}
   </style>
 </head>
 <body>
@@ -32,13 +53,15 @@
           </ul>
         </div>
       </nav>
-      <form style="margin-top: 220px; margin-left: 470px ;font-family: 'Poppins', sans-serif;
+      <form style="margin-top: -20px; margin-left: 470px ;font-family: 'Poppins', sans-serif;
          "method="POST" action="../PHP/HerodsSaveDate.php">
-        <label  style="  color: crimson; font-size: 20px;" for="Check-in:">Check-in</label>
+        <strong><label  style="  color: aqua; font-size: 30px;" for="Check-in:">Check-in</label></strong>
         <input type="date" name="Check-in">
-        <label style=" color:crimson; font-size: 20px;" for="Check-out:">Check-out</label>
+        <strong><label style=" color:aqua; font-size: 30px;" for="Check-out:">Check-out</label></strong>
         <input type="date" name="Check-out">
         <input type="submit" value="search">
       </form>
+      <a href="../PHP/DateHerods.php"><input class="btn solid" type="submit" value="View Available Date's"/></a>
+
 </body>
 </html>
