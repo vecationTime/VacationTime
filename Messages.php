@@ -14,15 +14,10 @@ $sql = "INSERT INTO messages (FullName, Email, UserMessages) VALUES ('$fullname'
 
 $result = mysqli_query($conn, $query);
 
-if ($conn->query($sql) == true) 
- {
+if ($conn->query($sql) == true) {
     header('Location:../PHP/MessagesS.php');
- } 
- else 
- {
+ } else {
      header('Location:../PHP/MessagesError.php');
  }
-
  $conn->close();
-
 ?>
