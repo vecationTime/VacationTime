@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -6,12 +7,13 @@
     border: none;
 }
 body{
+    
     width: 100%;
     height: 100vh;
     background-size: 100% 110vh;
     position: relative;
     background-repeat: no-repeat;
-    background-image: url(../IMG/ContactUs.jfif);    
+    background-image: url(../IMG/ContactUs.jfif);
     font-family: 'Poppins', sans-serif;
 }
 header{
@@ -33,6 +35,7 @@ header h1{
     left: 0;
     z-index: -1;
 }
+
 .content{
     display: flex;
     min-height: 110vh;
@@ -44,6 +47,7 @@ header h1{
 .content-form{
     margin-top: 7rem;
     margin-left: -250px;
+
 }
 section i{
     border-radius: 50%;
