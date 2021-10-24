@@ -41,7 +41,7 @@ if($resultCheck>0){
             header('Location:../PHP/IsraelCountry.php');
         }
         else{
-            header('Location:../HTML/SignUpLogIn.html');
+            header('Location:../HTML/SignUpLogInCust.html');
         }
     }
 }
