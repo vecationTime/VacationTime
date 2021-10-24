@@ -21,23 +21,27 @@
                    <input type="text" placeholder="FirstName" required class="name" name="FirstName">
                 </div>
             </div>
+
             <div class="input-box">
                 <div class="input-box">
                     <input type="text" placeholder="LastName" required class="name" name="LastName">
                     
                 </div>
             </div>
+            
            <div class="input-group">
                <div class="input-box">
                     <input type="email" placeholder="Email Address" required class="name" name="Mail">
                </div>
-           </div>
+           </div> 
+
            <div class="input-group">
                <div class="input-box">
                     <h4>Date of Birth</h4>
                     <input type="date" name="BirthDate">
                </div>
            </div>
+
            <div class="input-group">
                 <div class="input-box">
                     <h4>Payment Details</h4>
@@ -45,6 +49,7 @@
                     <label for="bc1"><span><i class="fa-cc-visa"></i>Credit card</span></label>
                 </div>
            </div>
+            
            <div class="input-group">
             <div class="input-box">
                  <input type="text" placeholder="Card Number" required class="name" name="CardNumber"> 
@@ -52,12 +57,15 @@
                  <input type="text" placeholder="CVC" required class="name" name="CVC"> 
             </div> 
          </div>
+         
          <input type="submit" value="Pay">
         </form>
+        
         <?php
-            echo "<br>"; 
-            echo "<p style = 'color: royalblue; text-align: center; font-size: 25px'>
-            Payment successful ,thank you for your payment Please check your email!!!</p><br>";        
+           echo "<br>"; 
+           echo "<p style = 'color: royalblue; text-align: center; font-size: 25px'>
+           Thank you. check your email!!!</p><br>";
+
         ?>
     </div>
 </body>
